@@ -13,8 +13,16 @@ struct MusicRatingAppApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView {
+                NavigationView {
+                    ContentView()
+                        .preferredColorScheme(.dark)
+                }
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .tabItem { Image(systemName: "music.quarternote.3") }
+                
+            }
+            .accentColor(.white)
         }
     }
 }
