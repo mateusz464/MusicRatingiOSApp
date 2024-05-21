@@ -19,7 +19,41 @@ struct MusicRatingAppApp: App {
                         .preferredColorScheme(.dark)
                 }
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
-                .tabItem { Image(systemName: "music.quarternote.3") }
+                .tabItem {
+                    Image(systemName: "music.quarternote.3")
+                }
+                
+                NavigationView {
+                    ContentView()
+                }
+                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .tabItem {
+                    Image(systemName: "square.fill")
+                }
+
+                NavigationView {
+                    ContentView()
+                }
+                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .tabItem {
+                    Image(systemName: "plus.circle.fill")
+                }
+
+                NavigationView {
+                    ContentView()
+                }
+                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .tabItem {
+                    Image(systemName: "circle.fill")
+                }
+
+                NavigationView {
+                    ContentView()
+                }
+                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .tabItem {
+                    Image(systemName: "person.crop.circle")
+                }
                 
             }
             .accentColor(.white)

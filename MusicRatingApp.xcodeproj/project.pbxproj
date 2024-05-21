@@ -13,6 +13,7 @@
 		6169D2222BFBDB49007A3FA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6169D2212BFBDB49007A3FA0 /* Preview Assets.xcassets */; };
 		6169D2242BFBDB49007A3FA0 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6169D2232BFBDB49007A3FA0 /* Persistence.swift */; };
 		6169D2272BFBDB49007A3FA0 /* MusicRatingApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6169D2252BFBDB49007A3FA0 /* MusicRatingApp.xcdatamodeld */; };
+		619AC6F12BFCF89F005B6A7E /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619AC6F02BFCF89F005B6A7E /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		6169D2212BFBDB49007A3FA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6169D2232BFBDB49007A3FA0 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		6169D2262BFBDB49007A3FA0 /* MusicRatingApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MusicRatingApp.xcdatamodel; sourceTree = "<group>"; };
+		619AC6F02BFCF89F005B6A7E /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,8 @@
 		6169D2192BFBDB47007A3FA0 /* MusicRatingApp */ = {
 			isa = PBXGroup;
 			children = (
+				619AC6EF2BFCF885005B6A7E /* Extensions */,
+				619AC6EC2BFCEEDF005B6A7E /* Components */,
 				6169D21A2BFBDB47007A3FA0 /* MusicRatingAppApp.swift */,
 				6169D21C2BFBDB47007A3FA0 /* ContentView.swift */,
 				6169D21E2BFBDB49007A3FA0 /* Assets.xcassets */,
@@ -71,6 +75,21 @@
 				6169D2212BFBDB49007A3FA0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		619AC6EC2BFCEEDF005B6A7E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		619AC6EF2BFCF885005B6A7E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				619AC6F02BFCF89F005B6A7E /* Color.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +166,7 @@
 				6169D21D2BFBDB47007A3FA0 /* ContentView.swift in Sources */,
 				6169D2272BFBDB49007A3FA0 /* MusicRatingApp.xcdatamodeld in Sources */,
 				6169D21B2BFBDB47007A3FA0 /* MusicRatingAppApp.swift in Sources */,
+				619AC6F12BFCF89F005B6A7E /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
